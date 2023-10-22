@@ -1,0 +1,20 @@
+<body>
+<input type='text' id='chas' size='10'>
+
+<script>
+function time()
+{
+//створення обєкту Date
+let time = new Date()
+//зміна значення часу в обєкті textbox
+chas.value=time.getHours()+":"+time.getMinutes()+":"+time.getSeconds():
+// Здамо таймер із паузою 1000мс для рекурсії
+
+    //функції time()
+    setTimeout('time()', 1000)
+  }
+
+  time()
+  </script>
+
+</body>
